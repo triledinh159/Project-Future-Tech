@@ -27,4 +27,4 @@ We split this challenge into 3 parts: Basic architecture, backend, frontend.
 *  **Frontend**: We had build the app which can read NFC signal.![](https://i.imgur.com/xPVfW4G.jpg)
 
 ### 3) Result
-With our solution, we were luckily chosen to be qualified to the finale of AWS Build on Vietnam and the solution was chosen to be the Best Technicality.
+With our solution, we were luckily chosen to be qualified to the finale of AWS Build on Vietnam and the solution were chosen to be the Best Technicality.
