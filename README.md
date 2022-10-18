@@ -28,3 +28,4 @@ We split this challenge into 3 parts: Basic architecture, backend, frontend.
 
 ### 3) Result
 With our solution, we were luckily chosen to be qualified to the finale of AWS Build on Vietnam and the solution were chosen to be the Best Technicality.
+Here is Demo link: https://youtu.be/hi772lhfCak
