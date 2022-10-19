@@ -4,10 +4,11 @@
 ---
 
 ## Project Future Tech
+(This is the copy from Xelvis64's main github)
 Application for **AWS Build on Vietnam** 2022 event: 
 Solution for ZaloPay's Challenge https://www.buildonvietnam.com/
 
-Author: MasterYuri
+Author: MasterYuri 
 ### 1) Problems
 The challenge: As adoption of cashless transactions in Vietnam continues to grow, please propose a solution & develop a feature for a mobile wallet that enables its users to pay for parking more conveniently.
 
