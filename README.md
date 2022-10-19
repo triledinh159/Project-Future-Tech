@@ -5,7 +5,7 @@
 
 ## Project Future Tech
 Application for **AWS Build on Vietnam** 2022 event: 
-Solution for ZaloPay's Challenge
+Solution for ZaloPay's Challenge https://www.buildonvietnam.com/
 
 Author: MasterYuri
 ### 1) Problems
