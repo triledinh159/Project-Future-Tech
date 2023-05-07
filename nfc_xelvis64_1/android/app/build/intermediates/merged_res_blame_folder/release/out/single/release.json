@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_logotext.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_logotext.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_nfc512.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_nfc512.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\xml_nfc_tech_filter.xml.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\src\\main\\res\\xml\\nfc_tech_filter.xml"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\generated\\res\\react\\release\\drawable-hdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "D:\\react-native-nfc-rewriter-master\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\react-native-nfc-rewriter-master\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

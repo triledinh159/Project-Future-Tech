@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.washow.nfcopenrewriter"
+4    android:versionCode="27"
+5    android:versionName="0.0.27" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.NFC" />
+12-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:5:5-62
+12-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:5:22-59
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:sentry_react-native] D:\react-native-nfc-rewriter-master\node_modules\@sentry\react-native\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-79
+13-->[:sentry_react-native] D:\react-native-nfc-rewriter-master\node_modules\@sentry\react-native\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-76
+14
+15    <uses-feature
+15-->[:react-native-nfc-manager] D:\react-native-nfc-rewriter-master\node_modules\react-native-nfc-manager\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+16        android:name="android.hardware.nfc"
+16-->[:react-native-nfc-manager] D:\react-native-nfc-rewriter-master\node_modules\react-native-nfc-manager\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-44
+17        android:required="false" />
+17-->[:react-native-nfc-manager] D:\react-native-nfc-rewriter-master\node_modules\react-native-nfc-manager\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+18
+19    <application
+19-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:7:5-50:19
+20        android:name="com.washow.nfcopenrewriter.MainApplication"
+20-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:8:7-38
+21        android:allowBackup="false"
+21-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] C:\Users\acer\.gradle\caches\transforms-3\9a5609492583665f69031e1d92193180\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:10:7-41
+24        android:label="@string/app_name"
+24-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:9:7-39
+25        android:theme="@style/AppTheme" >
+25-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:12:7-38
+26        <activity
+26-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:13:7-48:18
+27            android:name="com.washow.nfcopenrewriter.MainActivity"
+27-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:14:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:16:9-86
+29            android:label="@string/app_name"
+29-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:15:9-41
+30            android:launchMode="singleTask"
+30-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:17:9-40
+31            android:windowSoftInputMode="adjustResize" >
+31-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:18:9-51
+32            <intent-filter>
+32-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:19:9-22:25
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:20:13-65
+33-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:20:21-62
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:21:13-73
+35-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:21:23-70
+36            </intent-filter>
+37            <intent-filter>
+37-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:23:9-29:25
+38                <action android:name="android.intent.action.VIEW" />
+38-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:24:13-65
+38-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:24:21-62
+39
+40                <category android:name="android.intent.category.DEFAULT" />
+40-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:25:13-72
+40-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:25:23-69
+41                <category android:name="android.intent.category.BROWSABLE" />
+41-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:26:13-74
+41-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:26:23-71
+42
+43                <data
+43-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:27:13-28:38
+44                    android:host="*"
+44-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:28:19-35
+45                    android:scheme="com.revteltech.nfcopenrewriter" />
+45-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:27:19-66
+46            </intent-filter>
+47            <intent-filter>
+47-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:30:9-36:25
+48                <action android:name="android.intent.action.VIEW" />
+48-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:24:13-65
+48-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:24:21-62
+49
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:25:13-72
+50-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:25:23-69
+51                <category android:name="android.intent.category.BROWSABLE" />
+51-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:26:13-74
+51-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:26:23-71
+52
+53                <data
+53-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:27:13-28:38
+54                    android:host="*"
+54-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:28:19-35
+55                    android:scheme="com.washow.nfcopenrewriter" />
+55-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:27:19-66
+56            </intent-filter>
+57            <intent-filter>
+57-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:37:9-42:25
+58                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+58-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:38:13-72
+58-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:38:21-70
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:25:13-72
+60-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:25:23-69
+61
+62                <data
+62-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:27:13-28:38
+63                    android:host="washow.netlify.app"
+63-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:28:19-35
+64                    android:scheme="https" />
+64-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:27:19-66
+65            </intent-filter>
+66            <intent-filter>
+66-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:43:9-45:25
+67                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+67-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:44:11-70
+67-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:44:19-68
+68            </intent-filter>
+69
+70            <meta-data
+70-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:46:9-47:62
+71                android:name="android.nfc.action.TECH_DISCOVERED"
+71-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:46:20-69
+72                android:resource="@xml/nfc_tech_filter" />
+72-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:47:20-59
+73        </activity>
+74        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+74-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:49:7-84
+74-->D:\react-native-nfc-rewriter-master\android\app\src\main\AndroidManifest.xml:49:17-81
+75
+76        <meta-data
+76-->[:sentry_react-native] D:\react-native-nfc-rewriter-master\node_modules\@sentry\react-native\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-15:37
+77            android:name="io.sentry.auto-init"
+77-->[:sentry_react-native] D:\react-native-nfc-rewriter-master\node_modules\@sentry\react-native\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+78            android:value="false" />
+78-->[:sentry_react-native] D:\react-native-nfc-rewriter-master\node_modules\@sentry\react-native\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-34
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+82            android:authorities="com.washow.nfcopenrewriter.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\08b441c11ec5ecf644ce97cb8bd7ce7d\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\c571f3d697cc307d8a051319d20fb8f3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\c571f3d697cc307d8a051319d20fb8f3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\acer\.gradle\caches\transforms-3\c571f3d697cc307d8a051319d20fb8f3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+90        </provider> <!-- 'android:authorities' must be unique in the device, across all apps -->
+91        <provider
+91-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:14:9-17:40
+92            android:name="io.sentry.android.core.SentryInitProvider"
+92-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:15:13-69
+93            android:authorities="com.washow.nfcopenrewriter.SentryInitProvider"
+93-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:16:13-70
+94            android:exported="false" />
+94-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:17:13-37
+95        <provider
+95-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:18:9-22:39
+96            android:name="io.sentry.android.core.SentryPerformanceProvider"
+96-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:19:13-76
+97            android:authorities="com.washow.nfcopenrewriter.SentryPerformanceProvider"
+97-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:20:13-77
+98            android:exported="false"
+98-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:21:13-37
+99            android:initOrder="200" />
+99-->[io.sentry:sentry-android-core:5.1.0-beta.2] C:\Users\acer\.gradle\caches\transforms-3\2f26022a82edf0c4d7fe0d536fe1e945\transformed\jetified-sentry-android-core-5.1.0-beta.2\AndroidManifest.xml:22:13-36
+100    </application>
+101
+102</manifest>

@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.washow.nfcopenrewriter",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "versionCode": 27,
+      "versionName": "0.0.27",
+      "outputFile": "resources-universalRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "versionCode": 27002,
+      "versionName": "0.0.27",
+      "outputFile": "resources-x86Release.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 27003,
+      "versionName": "0.0.27",
+      "outputFile": "resources-arm64-v8aRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 27001,
+      "versionName": "0.0.27",
+      "outputFile": "resources-armeabi-v7aRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "versionCode": 27004,
+      "versionName": "0.0.27",
+      "outputFile": "resources-x86_64Release.ap_"
+    }
+  ]
+}

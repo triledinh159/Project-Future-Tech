@@ -1,0 +1,9 @@
+com/washow/nfcopenrewriter/MainActivity.java
+ com.washow.nfcopenrewriter.MainActivity
+com/washow/nfcopenrewriter/MainApplication.java
+ com.washow.nfcopenrewriter.MainApplication
+ com.washow.nfcopenrewriter.MainApplication$1
+com/washow/nfcopenrewriter/BuildConfig.java
+ com.washow.nfcopenrewriter.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
