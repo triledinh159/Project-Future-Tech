@@ -4,7 +4,6 @@
 ---
 
 ## Project Future Tech
-(This is the copy from Xelvis64's main github)
 
 Application for **AWS Build on Vietnam 2022** event: 
 Solution for ZaloPay's Challenge https://www.buildonvietnam.com/
