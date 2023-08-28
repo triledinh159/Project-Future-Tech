@@ -52,7 +52,7 @@ def lambda_handler(event, context):
         dynamodb_table.put_item(Item=file_reader)
         
         data1 = dy_client.get_item(
-        TableName='basicData',
+        TableName='<DynamoDB-Table-name>',
         Key={
             'ID': {
             'S': ID
