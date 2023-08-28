@@ -16,9 +16,9 @@ def lambda_handler(event, context):
     
     #2. copy user basic data from source to target
     
-    src_bucket_path = 'triuserdata'
+    src_bucket_path = '<name-bucket-store-json-file>'
     src_file_name = ins_res['userID'] + '_' + ins_res['username'] + '.json'
-    tgt_bucket_path = 'tricheckdata'
+    tgt_bucket_path = '<name-middle-bucket>'
     tgt_file_name = ins_res['userID'] + '_' + ins_res['username'] +'.json'
     copy_source = {
     'Bucket': src_bucket_path,
@@ -26,23 +26,17 @@ def lambda_handler(event, context):
     }
     #3. Copy user license plate from source to target
 
-    src_bucket_path_2 = 'imagecap'
+    src_bucket_path_2 = '<name-bucket-store-image>'
     src_file_name_2 = ins_res['userID'] + '_' + ins_res['username'] + '.jpg'
     tgt_file_name_2 = ins_res['userID'] + '_' + ins_res['username'] +'.jpg'
     copy_source_2 = {
     'Bucket': src_bucket_path_2,
     'Key': src_file_name_2
     }
- 
-    
-    
-    # TODO implement
-    
-    
-    dynamodb_table = dynamodb_client.Table('basicData')
+
     
     data = client.get_item(
-        TableName='basicData',
+        TableName='<DynamoDB-Table-name>',
         Key={
             'ID': {
             'S': ins_res['userID']
